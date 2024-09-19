@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/df1upuf-498b2457-002e-464c-89f5-ad3a52a7f707.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGYxdXB1Zi00OThiMjQ1Ny0wMDJlLTQ2NGMtODlmNS1hZDNhNTJhN2Y3MDcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5KNaBj_iXVWKlYVpgF1sm7ni5b4pyiPB5R13Ci3ZHXM");
+    color: whitesmoke;
+}
+
+img{
+    opacity: 0.5;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.plan {
+    background-color: #941010;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff525b;
+}
+
+.card-plan{
+    position: absolute;
+    left: 25%;
+    top: 50px;
+    border: solid 5px black;
+    border-radius: 10px;
+    background-color: #636363;
+    width: 50%;
+}
